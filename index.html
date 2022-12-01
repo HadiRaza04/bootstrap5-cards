@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS5-Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid p-3 text-white"><h1 class="display-2">BootStrap5 Cards</h1></div>
+    <div class="container my-4">
+        <h1>Basic Cards</h1>
+        <p>A basic card is created with the .card class, and content inside the card has a .card-body class.</p>
+        <div class="card">
+            <div class="card-body">Basic Card</div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h1>Header and Footer</h1>
+        <p>The <b>.card-header</b> class adds a heading to the card and the <b>.card-footer</b> class adds a footer to the card.</p>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body">Body</div>
+            <div class="card-footer">Footer</div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h1>Contextual Cards</h1>
+        <p>To add a background color the card, use contextual classes (<b>.bg-primary</b>, <b>.bg-success</b>, <b>.bg-info</b>, <b>.bg-warning</b>, <b>.bg-danger</b>, <b>.bg-secondary</b>, <b>.bg-dark</b> and <b>.bg-light</b>.</p>
+        <div class="card">
+            <div class="card-body">Basic Card</div>
+        </div>
+        <br>
+        <div class="card bg-primary text-white">
+            <div class="card-body">Primary Card</div>
+        </div>
+        <br>
+        <div class="card bg-secondary text-white">
+            <div class="card-body">Secondary Card</div>
+        </div>
+        <br>
+        <div class="card bg-success text-white">
+            <div class="card-body">Success Card</div>
+        </div>
+        <br>
+        <div class="card bg-warning">
+            <div class="card-body">Warning Card</div>
+        </div>
+        <br>
+        <div class="card bg-danger text-white">
+            <div class="card-body">Danger Card</div>
+        </div>
+        <br>
+        <div class="card bg-info">
+            <div class="card-body">Info Card</div>
+        </div>
+        <br>
+        <div class="card bg-dark text-white">
+            <div class="card-body">Dark Card</div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h1>Titles, text, and links</h1>
+        <p>Use <b>.card-title</b> to add card titles to any heading element. The <b>.card-text</b> class is used to remove bottom margins for a <b>p></b> element if it is the last child (or the only one) inside <b>.card-body</b>. The <b>.card-link</b> class adds a blue color to any link, and a hover effect.</p>
+        <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Hadi Raza <span> Card title</span></h4>
+              <p class="card-text">A passionate frontend developer from Karachi, PAKISTAN. A passionate frontend developer from Karachi, PAKISTAN.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h1>Card Images</h1>
+        <p>Add <b>.card-img-top</b> or <b>.card-img-bottom</b> to an <b>img></b> to place the image at the top or at the bottom inside the card. Note that we have added the image outside of the <b>.card-body</b> to span the entire width.</p>
+        <div class="card" style="width:250px">
+            <img class="card-img-top" src="1.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Hadi Raza</h4>
+              <p class="card-text">A passionate frontend developer from Karachi, PAKISTAN.</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+        <div class="card" style="width:250px">
+            <div class="card-body">
+              <h4 class="card-title">Hadi Raza</h4>
+              <p class="card-text">A passionate frontend developer from Karachi, PAKISTAN.</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+            <img class="card-img-bottom" src="1.png" alt="Card image">
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="card" style="width: 500px;">
+            <img class="card-img-bottom" src="1.png" alt="Card image">
+            <div class="card-img-overlay">
+                <h4 class="card-title">Hadi Raza</h4>
+                <p class="card-text">A passionate frontend developer from Karachi, PAKISTAN.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
